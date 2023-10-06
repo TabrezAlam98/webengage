@@ -8,9 +8,10 @@
   height: 100%;
 }
 .right h1 {
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   margin-bottom: -30px;
+  margin-top: -85px;
 }
 .right p {
   text-align: center;
@@ -112,8 +113,12 @@
     .container > div{
         width: 100%;
     }
+    .left img{
+      height: 300px;
+    }
     .right h1 {
         font-size: 30px;
+        margin-top: -50px;
       }
       .right p {
         font-size: 30px;
