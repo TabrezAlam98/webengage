@@ -69,6 +69,18 @@
     cursor: pointer;
     
 }
+#msg1{
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+ margin-bottom: -15px;
+}
+#msg2{
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px
+}
 
 
 @media screen and (max-width: 1200px) {
