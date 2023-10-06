@@ -2,12 +2,14 @@ document.querySelector('#form').addEventListener("submit",formSubmit)
 
 let email=document.getElementById('email')
 let num=document.getElementById('mobile')
+let button=document.getElementById('btn')
 
 
 email.addEventListener('input',()=>{
     if(email.value.length<8 ){
         msg1.innerHTML='Email should be 8 digits'
         msg1.style.color='red'
+        
     }else{
         msg1.style.color='white'
     }
@@ -34,4 +36,6 @@ function formSubmit(e){
     }
     arr.push(obj)
 console.log(arr)
+localStorage.setItem("formData",JSON.stringify(arr))
+window.location='thankyou.html'
 }
